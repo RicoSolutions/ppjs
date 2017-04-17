@@ -1,5 +1,5 @@
 <?php
-$secretkey = "sk_test_FebNwoDiYrcepKwkkRJt6";
+$secretkey = "yourprivatekeytest";
 
 $email = htmlspecialchars($_POST['email']);
 $firstname = htmlspecialchars($_POST['firstname']);

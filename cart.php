@@ -56,7 +56,7 @@ $guest = $_POST['guest'];
 
 <!-- Integrate PayPlug Library -->
   <script type="text/javascript">
-  Payplug.setPublishableKey('pk_test_c163da4d8c413cbe9c99bd152afd64da');
+  Payplug.setPublishableKey('yourpublishablekeytest');
 
   var payplugResponseHandler = function(code, response, details) {
     console.log(code + ' : ' + response + ' : ' + details);
